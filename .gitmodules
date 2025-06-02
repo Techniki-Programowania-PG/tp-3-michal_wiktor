@@ -1,3 +1,0 @@
-[submodule "Proj3/pybind11"]
-	path = Proj3/pybind11
-	url = https://github.com/pybind/pybind11
