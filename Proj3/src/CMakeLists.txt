@@ -1,6 +1,6 @@
 ﻿
 
-add_executable (proj3 "proj3.cpp" )
+add_executable (proj3 "proj3.cpp" "proj3.h")
 target_link_libraries(proj3 PUBLIC matplot)
 
 

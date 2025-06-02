@@ -4,7 +4,7 @@
 #include<pybind11/complex.h>
 
 namespace py = pybind11;
-PYBIND11_MODULE(proj3, m) {
+PYBIND11_MODULE(Proj3, m) {
 	m.doc() = "Library for signal processing functions";
 	m.def("sinGen", &sinGen, "Generate a sine wave signal",
 		parg("freq"), py::arg("fSmpl"), py::arg("dur"));
